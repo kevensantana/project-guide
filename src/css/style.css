@@ -1,0 +1,129 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+}
+
+
+
+#menu{
+  background-color: rgb(34, 34, 34);
+  width: 20%;
+  height: 100vh;
+
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+}
+
+.titleMenu{
+  color: aliceblue;
+
+  font-size: 22px;
+  width: 100%;
+  text-align: center;
+
+  padding: 20px 0;
+}
+
+.titleMenu span{
+  color: red;
+}
+
+
+.acessButton li{
+  margin: 20px 0;
+}
+
+
+.buttonSelect, 
+.singButton{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 5px 10px;
+
+  cursor: pointer;
+}
+
+.active{
+  border: 1px solid rgb(48, 180, 167);
+  border-radius: 3px;
+  background-color: rgb(41, 157, 145);
+}
+
+.buttonSelect img,
+.singButton img,
+.userButton img{
+  width: 30px;
+}
+
+.buttonSelect span,
+.singButton span{
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.singButton {
+  position: absolute;
+  bottom: 20%;
+}
+
+
+.userButton{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  width: 80%;
+
+  padding: 10px 0;
+  position: absolute;
+  bottom: 3%;
+
+  border-top: 2px solid rgb(87, 87, 87);
+
+}
+
+.userButton img{
+  cursor: pointer;
+}
+
+.userProfile img{
+  width: 30px;
+}
+
+.userButton span{
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.userProfile{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.imageProfile {
+  width: 50px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+
+  background: url("../../public/image/pexels-mohamed-abdelghaffar-771742.jpg") no-repeat;
+  background-size: cover;
+}
+
+.userProfile strong{
+  font-size: 14px;
+  color: rgb(87, 87, 87);;
+}
